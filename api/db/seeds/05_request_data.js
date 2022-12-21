@@ -18,6 +18,8 @@ const createFakeRequests = () => {
         "Virgin Islands",
         "Cancun",
         "Spain",
+        "Hawaii",
+        "Greenland",
       ]),
       mission_title:
         faker.commerce.productMaterial() +
