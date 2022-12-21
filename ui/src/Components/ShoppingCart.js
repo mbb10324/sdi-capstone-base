@@ -100,7 +100,7 @@ export default function ShoppingCart() {
         let cmd_id = 1
         const formData = new FormData();
         formData.append('date', date);
-        formData.append('missionTitle', missionTitle);
+        formData.append('mission_title', missionTitle);
         formData.append('location', location);
         formData.append('justification', justification);
         formData.append('status', status);

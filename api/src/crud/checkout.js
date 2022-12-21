@@ -24,7 +24,7 @@ router.get('/', async (req, res) => {
 })
 
 router.post('/', fileUpload.single('file'), async (req, res) => {
-  console.log(req.file)
+  console.log(req.body)
   let filePath;
   if (!req.file) {
     filePath = 'No File Uploaded';
